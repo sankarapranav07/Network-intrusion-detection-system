@@ -1,0 +1,1 @@
+run_started_utc,alert_utc,alert_id,source_ip,destination_ip,rule,observed_attempts,distinct_ports,block_attempt,block_status,detection_ms,threshold_processing_ms,block_call_ms,response_ms,end_to_end_ms,detail

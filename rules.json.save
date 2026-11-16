@@ -1,0 +1,24 @@
+{
+  "window_seconds": 10,
+  "rules": {
+    "high_connection_rate": {
+      "enabled": true,
+      "attempts_threshold": 2
+    },
+    "multi_port_scan": {
+      "enabled": true,
+      "distinct_ports_threshold": 10
+    }
+  },
+  "retransmit_dedup": {
+    "enabled": true,
+    "window_seconds": 3
+  },
+  "incident": {
+    "block_duration_seconds": 60,
+    "idle_state_ttl_seconds": 60,
+    "block_retry_cooldown_seconds": 5,
+    "block_max_retries": 2
+  },
+  "whitelist": ["10.0.0.2"]
+}
